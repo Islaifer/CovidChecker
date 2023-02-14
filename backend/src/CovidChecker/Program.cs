@@ -1,6 +1,6 @@
 namespace CovidChecker{
     public class Program{
-        public static void main(String [] args){
+        public static void Main(String [] args){
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services.AddControllers();
